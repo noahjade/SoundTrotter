@@ -13,7 +13,7 @@ If we stay in the music bubbles of our own coutnries, we miss out on engaging wi
 
 ### Install the dependencies
 
-- Navigate to GROUP-31-MAROON-MONKEY/client
+- Navigate to SoundTrotter folder
 
 Using npm:
 ```
