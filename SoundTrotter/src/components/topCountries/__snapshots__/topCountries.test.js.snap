@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Correctly renders default top countries component 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="title section"
+  >
+    You have recently listened to songs from 
+     countries.
+  </div>
+  <div
+    className="bottomSection"
+  >
+    <div
+      className="title section"
+    >
+      There are still 
+      NaN
+       countries to explore!
+    </div>
+    <div
+      className="buttonArea section"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Fill The Gaps
+      </button>
+    </div>
+  </div>
+  <div
+    className="title"
+  >
+    Your Most Listened To Countries:
+  </div>
+  <div
+    className="list section"
+  >
+    <div
+      className="country"
+      key="0"
+    >
+      1
+      . 
+      C
+       (
+      6
+       artist
+      s
+      )
+    </div>
+    <div
+      className="country"
+      key="1"
+    >
+      2
+      . 
+      A
+       (
+      5
+       artist
+      s
+      )
+    </div>
+    <div
+      className="country"
+      key="2"
+    >
+      3
+      . 
+      B
+       (
+      3
+       artist
+      s
+      )
+    </div>
+  </div>
+</div>
+`;

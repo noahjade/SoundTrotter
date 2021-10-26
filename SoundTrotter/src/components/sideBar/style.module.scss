@@ -1,0 +1,107 @@
+.root {
+  text-decoration: none;
+}
+
+.MainWrapper {
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+  z-index: -20;
+}
+
+/*TABS*/
+
+.TabWrapper {
+  width: 70px;
+  height: 100%;
+  float: right;
+}
+
+.Tab {
+  width: 100%;
+  height: 90px;
+  background-color: #0e0e0e;
+  margin-bottom: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+div.Tab > img {
+  height: 45%;
+  margin-top: 20px;
+  margin-left: 5px;
+  opacity: 0.4;
+}
+
+.tabOne[tabNumber="1"],
+.tabTwo[tabNumber="2"],
+.tabThree[tabNumber="3"],
+.tabFour[tabNumber="4"] {
+  background-color: #282828;
+}
+
+div.tabOne[tabNumber="1"] > img,
+div.tabTwo[tabNumber="2"] > img,
+div.tabThree[tabNumber="3"] > img,
+div.tabFour[tabNumber="4"] > img {
+  opacity: 1;
+}
+
+/*MAIN CONTENT*/
+
+.MainContent {
+  height: 100%;
+  width: 300px;
+  background-color: #282828;
+  float: right;
+  overflow: hidden;
+}
+
+.MainContent[hidemain="1"] {
+  animation: shrink 1s 1;
+  width: 0px;
+}
+
+.rightAlignRow {
+  display: flex;
+  float: right;
+}
+
+.title {
+  height: 50px;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 250px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.ExitButton {
+  height: 50px;
+  width: 50px;
+  background-image: url("../../assets/exitButton.png");
+  visibility: visible;
+}
+
+.ContentArea {
+  height: calc(100% - 50px);
+  margin-top: 80px;
+  overflow: auto;
+}
+
+/*ANIMATION STUFF*/
+
+@keyframes shrink {
+  100% {
+    transform: scaleX(0);
+  }
+}
+
+.animate {
+  transition: transform 0.35s ease-in-out;
+}
+
+.animate.grow {
+  transform: scale(1.5);
+}

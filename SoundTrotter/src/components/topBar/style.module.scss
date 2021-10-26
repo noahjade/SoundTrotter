@@ -1,0 +1,38 @@
+/*TOPBAR*/
+
+.topBar {
+  background-color: #282828;
+  color: white;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 100;
+}
+
+div.topBarLeft > img {
+  height: 50%;
+}
+
+div.topBarRight > img {
+  height: 50%;
+}
+.topBarRight {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.topBarLeft {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.spaceItem {
+  margin-left: 20px;
+}

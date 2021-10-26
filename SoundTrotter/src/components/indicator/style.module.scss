@@ -1,0 +1,46 @@
+.MainWrapper {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextArea {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-right: 5px;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  width: 100px;
+  z-index: 100;
+  text-align: center;
+}
+
+.Indicator {
+  width: 200px;
+  height: 200px;
+  border-top: solid 10px #bef1e293;
+  border-left: solid 10px #00e09d;
+  border-right: solid 10px #00e09d;
+  border-bottom: solid 10px #bef1e293;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  animation: spinner-animate 2s ease 0s infinite;
+}
+
+@keyframes spinner-animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}

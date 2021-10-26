@@ -1,0 +1,78 @@
+.root {
+  text-decoration: none;
+}
+
+.MainWrapper {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+div.container > h3,
+div.container > h5 {
+  margin-bottom: 10px;
+}
+
+/*TABS*/
+
+.TabWrapper {
+  width: 70px;
+  height: 100%;
+  float: right;
+}
+
+.Tab {
+  width: 100%;
+  height: 90px;
+  background-color: rgb(8, 8, 61);
+  margin-bottom: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+/*MAIN CONTENT*/
+
+.MainContent {
+  height: 100%;
+  width: calc(100% - 70px);
+  background-color: #282828;
+  float: right;
+  overflow: hidden;
+}
+
+.MainContent[hideMain="1"] {
+  animation: shrink 1s 1;
+  width: 0px;
+}
+
+.rightAlignRow {
+  float: right;
+}
+
+.ExitButton {
+  height: 50px;
+  width: 50px;
+  background-color: hotpink;
+  visibility: visible;
+}
+
+/*ANIMATION STUFF*/
+
+@keyframes shrink {
+  100% {
+    transform: scaleX(0);
+  }
+}
+
+.animate {
+  transition: transform 0.35s ease-in-out;
+}
+
+.animate.grow {
+  transform: scale(1.5);
+}

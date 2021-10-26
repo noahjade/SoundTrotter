@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Correctly renders disabled button 1`] = `
+<button
+  className="btn"
+  disabled={true}
+  id="play-btn"
+>
+  <svg>
+    play.svg
+  </svg>
+</button>
+`;
+
+exports[`Correctly renders next button 1`] = `
+<button
+  className="btn"
+  id="next-btn"
+>
+  <svg>
+    next.svg
+  </svg>
+</button>
+`;
+
+exports[`Correctly renders pause button 1`] = `
+<button
+  className="btn"
+  id="pause-btn"
+>
+  <svg>
+    pause.svg
+  </svg>
+</button>
+`;
+
+exports[`Correctly renders play button 1`] = `
+<button
+  className="btn"
+  id="play-btn"
+>
+  <svg>
+    play.svg
+  </svg>
+</button>
+`;
+
+exports[`Correctly renders prev button 1`] = `
+<button
+  className="btn"
+  id="previous-btn"
+>
+  <svg>
+    prev.svg
+  </svg>
+</button>
+`;

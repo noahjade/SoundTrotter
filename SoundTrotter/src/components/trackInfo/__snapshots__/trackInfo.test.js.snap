@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Correctly renders track info 1`] = `
+Array [
+  <div
+    className="image"
+  >
+    <img
+      alt="album"
+      src="image-url"
+    />
+  </div>,
+  <div
+    className="info"
+  >
+    <span
+      className="info__title"
+    >
+      track
+    </span>
+    <span
+      className="info__artists"
+    >
+      artist1, artist2, artist3
+    </span>
+  </div>,
+]
+`;

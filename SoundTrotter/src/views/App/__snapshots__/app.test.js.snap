@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Correctly renders default login screen 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="Wrapper"
+  >
+     
+    <Login />
+     
+  </div>
+</div>
+`;
+
+exports[`It renders the home page for an authorised user 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="home"
+  >
+    <div
+      className="topBar"
+    >
+      <div
+        className="topBarLeft"
+      >
+        <img
+          alt="Logo"
+          src="spotify-icon-green.png"
+        />
+        <h3
+          className="spaceItem"
+        >
+          SOUND TROTTER
+        </h3>
+      </div>
+      <div
+        className="topBarRight"
+      >
+        <h3
+          className="spaceItem"
+        >
+          Welcome, 
+          
+        </h3>
+        <img
+          alt="help"
+          className="spaceItem"
+          onClick={[Function]}
+          src="helpButton.png"
+        />
+      </div>
+    </div>
+    <div
+      className="helpContainer"
+      showhelp={0}
+    >
+      <div
+        className="helpBox"
+      >
+        <div
+          className="rightAlignRow"
+        >
+          <div
+            className="ExitButton"
+            onClick={[Function]}
+          />
+        </div>
+        <div
+          className="titleArea"
+        >
+          Welcome to Sound Trotter!
+        </div>
+        <div
+          className="contentArea"
+        >
+          <p>
+            This application allows you to analyse your recent spotify listening to find out which countries the songs you have been listening to are from. Simply wait for the data to load in, and the interactive map will light up green for every country you have covered.
+          </p>
+          <p>
+            The tabs on the right side of the screen allow you to analyse further. Click on them to explore! Select on the map to view specific information about specific countries.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="centerContent"
+    >
+      <div
+        className="mapArea"
+      />
+      <div
+        className="sideBar"
+      >
+        <div
+          className="MainWrapper"
+        >
+          <div
+            className="TabWrapper"
+            hidemain={1}
+          >
+            <div
+              className="Tab tabOne"
+              onClick={[Function]}
+              tabNumber={0}
+            >
+              <img
+                alt="User Stats"
+                src="user.png"
+              />
+            </div>
+            <div
+              className="Tab tabTwo"
+              onClick={[Function]}
+              tabNumber={0}
+            >
+              <img
+                alt="Country Artists"
+                src="flag.png"
+              />
+            </div>
+            <div
+              className="Tab tabThree"
+              onClick={[Function]}
+              tabNumber={0}
+            >
+              <img
+                alt="Country Charts"
+                src="headphones.png"
+              />
+            </div>
+            <div
+              className="Tab tabFour"
+              onClick={[Function]}
+              tabNumber={0}
+            >
+              <img
+                alt="Credits"
+                src="heart.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="bottomBar"
+    >
+      <section
+        className="hidden"
+      >
+        <div
+          className="track"
+        >
+          <div
+            className="image"
+          >
+            <img />
+          </div>
+          <div
+            className="info"
+          >
+            <span
+              className="info__title"
+            />
+            <span
+              className="info__artists"
+            />
+          </div>
+          <div
+            className="track__controls"
+          >
+            <button
+              className="btn"
+              id="previous-btn"
+              onClick={[Function]}
+            >
+              <svg>
+                prev.svg
+              </svg>
+            </button>
+            <button
+              className="btn"
+              disabled={false}
+              id="play-btn"
+              onClick={[Function]}
+            >
+              <svg>
+                play.svg
+              </svg>
+            </button>
+            <button
+              className="btn"
+              id="next-btn"
+              onClick={[Function]}
+            >
+              <svg>
+                next.svg
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;

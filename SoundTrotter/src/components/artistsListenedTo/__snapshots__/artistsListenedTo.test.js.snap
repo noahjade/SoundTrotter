@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Correctly renders default artists listened to component 1`] = `
+<div
+  className="container"
+>
+  <div>
+    <div
+      className="title section"
+    >
+      Artists you've listened to from...
+    </div>
+  </div>
+  <div
+    className="artists"
+  >
+    <div
+      className="message"
+    >
+      Select a country
+    </div>
+  </div>
+</div>
+`;

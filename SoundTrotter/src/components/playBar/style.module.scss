@@ -1,0 +1,29 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgb(34, 34, 34);
+  padding: 10px;
+  transition: transform 0.25s ease;
+}
+
+.hidden {
+  @extend .container;
+  transform: translateY(100%);
+}
+
+.track {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  &__controls {
+    width: 50%;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

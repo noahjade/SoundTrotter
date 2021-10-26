@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Correctly renders default spotify charts component 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="title"
+  >
+    Top 10 songs in 
+    ...
+  </div>
+  <div
+    className="message"
+  >
+    Select a country
+  </div>
+</div>
+`;
